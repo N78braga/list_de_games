@@ -31,7 +31,7 @@ public class Game {
     }
 
     public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
-            String shortDescription, String longDesvription) {
+            String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
         this.year = year;
@@ -40,7 +40,7 @@ public class Game {
         this.score = score;
         this.imgUrl = imgUrl;
         this.short_description = shortDescription;
-        this.long_description = longDesvription;
+        this.long_description = longDescription;
     }
 
     public Long getId() {
