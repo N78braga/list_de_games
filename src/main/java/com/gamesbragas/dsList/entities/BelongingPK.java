@@ -11,7 +11,7 @@ public class BelongingPK {
     @JoinColumn(name = "game_id")
     private Game game;
     @ManyToOne
-    @JoinColumn(name = "gameList_id")
+    @JoinColumn(name = "game_list_id")
     private GamesList gameList;
 
     public BelongingPK() {
@@ -34,8 +34,8 @@ public class BelongingPK {
         return gameList;
     }
 
-    public void setGameList(GamesList gamesList) {
-        this.gameList = gamesList;
+    public void setGameList(GamesList gameList) {
+        this.gameList = gameList;
     }
 
     @Override
